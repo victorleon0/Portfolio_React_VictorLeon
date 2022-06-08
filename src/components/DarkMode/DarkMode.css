@@ -1,12 +1,10 @@
-.app {
-  text-align: center;
-}
-
 .appDark {
   background-color: black;
   color: White;
 }
+
 .appLight {
   background-color: white;
   color: black;
 }
+/*# sourceMappingURL=DarkMode.css.map */

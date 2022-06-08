@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import LateralMenu from './components/LateralMenu/LateralMenu.jsx';
+import Footer from './components/Footer/Footer.jsx';
+import Portada from './components/Portada/Portada.jsx';
+import DarkMode from './components/DarkMode/DarkMode.jsx';
+
 
 function App() {
   return (
     <div className="app">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <DarkMode/>
+    <LateralMenu />
+    <Portada />
+    <Footer />
     </div>
   );
 }
