@@ -5,10 +5,10 @@ import Portada from './components/Portada/Portada.jsx';
 import DarkMode from './components/DarkMode/DarkMode.jsx';
 import ContactForm from './components/ContactForm/ContactForm';
 import { useState } from "react";
-import { CV } from "./CV/curriculum.js";
-import HeroCard from "./components/Hero/HeroCard";
-
-const { aboutMe, education, experience, languages, habilities, volunteer } = CV;
+//import { CV } from "./CV/curriculum.js";
+//import HeroCard from "./components/Hero/HeroCard";
+//<HeroCard aboutMe={aboutMe}/>
+//const { aboutMe, education, experience, languages, habilities, volunteer } = CV;
 
 //let contactForm = [];
 
@@ -22,8 +22,9 @@ function App() {
 
   return (
     <div className={dark ? 'appDark' : 'appLight'}>
-    <HeroCard aboutMe={aboutMe}/>
+    
     <DarkMode dark={dark} setDark={setDark}/>
+    
     <LateralMenu />
     <Portada />
     <Footer />

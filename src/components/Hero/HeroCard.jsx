@@ -1,7 +1,7 @@
 import React from "react";
 import "./hero.scss";
 
-import { aboutMe } from "./CV/curriculum";
+//import { aboutMe } from "./CV/curriculum";
 
 
 const HeroCard = ({ aboutMe }) => {
