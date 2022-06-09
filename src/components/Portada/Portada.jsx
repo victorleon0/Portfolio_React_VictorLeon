@@ -4,7 +4,7 @@ const Portada = () => {
   return (
     <div>
     <h1>Hi! I'm Victor León</h1>
-    <h3>FullStack Dgit ieveloper & UX/UI Designer</h3>
+    <h3>FullStack Developer & UX/UI Designer</h3>
     
     </div>
   )

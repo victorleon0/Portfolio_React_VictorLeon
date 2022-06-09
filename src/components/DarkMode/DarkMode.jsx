@@ -1,16 +1,17 @@
 
-import { useState } from 'react';
+//import { useState } from 'react';
 import './DarkMode.scss';
 
 
-const DarkMode = () => {
-    const [dark, setDark] = useState(false);
+const DarkMode = ({dark, setDark}) => {
+  
     console.log('Dark mode', dark);
   return (
-    <div className={dark ? 'appDark' : 'appLight'}>
+    <div>
         <button type="button" onClick={()=>setDark(!dark)}>☀️⁄🌙</button>
     </div>   
   )
 }
+
 
 export default DarkMode

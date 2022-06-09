@@ -1,6 +1,5 @@
 
 import React from 'react'
-//import PropTypes from 'prop-types';
 
 const LateralMenu = props => {
   
@@ -14,6 +13,5 @@ const LateralMenu = props => {
   )
 }
 
-//Header.propTypes = {}
 
 export default LateralMenu
