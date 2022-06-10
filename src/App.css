@@ -2,13 +2,25 @@
   text-align: center;
 }
 
+.navbar {
+  position: relative;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .appDark {
-  background-color: black;
-  color: White;
+  background-color: #303030;
+  color: whitesmoke;
+  width: 100vw;
+  height: 100vh;
 }
 
 .appLight {
-  background-color: white;
-  color: black;
+  background-color: whitesmoke;
+  color: #303030;
+  width: 100vw;
+  height: 100vh;
 }
 /*# sourceMappingURL=App.css.map */

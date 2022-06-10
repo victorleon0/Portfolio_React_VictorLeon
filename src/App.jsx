@@ -5,12 +5,14 @@ import DarkMode from './components/DarkMode/DarkMode.jsx';
 import ContactForm from './components/ContactForm/ContactForm';
 import { useState } from "react";
 import Navbar from './components/Navbar/Navbar.jsx';
+import ContactButton from './components/ContactButton/ContactButton';
 
 import {Routes, Route, BrowserRouter as Router, Link} from 'react-router-dom';
 
 import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
-import Contact from './pages/Contact/Contact';
+import Contact from './pages/Contact/Contact.jsx';
+
 
 
 //import { CV } from "./CV/curriculum.js";
@@ -45,6 +47,7 @@ function App() {
     <Portada />
     <Footer />
     <ContactForm getContact={getContact}/>
+    <ContactButton/>
     </div>
     </Router>
 
