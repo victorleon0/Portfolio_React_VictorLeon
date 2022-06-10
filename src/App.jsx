@@ -5,7 +5,13 @@ import DarkMode from './components/DarkMode/DarkMode.jsx';
 import ContactForm from './components/ContactForm/ContactForm';
 import { useState } from "react";
 import Navbar from './components/Navbar/Navbar.jsx';
-//import {NavLink} from 'react-router-dom';
+
+import {Routes, Route, BrowserRouter as Router, Link} from 'react-router-dom';
+
+import About from './pages/About/About';
+import Projects from './pages/Projects/Projects';
+import Contact from './pages/Contact/Contact';
+
 
 //import { CV } from "./CV/curriculum.js";
 //import HeroCard from "./components/Hero/HeroCard";
@@ -23,16 +29,26 @@ function App() {
   }
 
   return (
+    <Router>
+    <Navbar/>
 
     <div className={dark ? 'appDark' : 'appLight'}>
 
-    <DarkMode dark={dark} setDark={setDark}/>
+      <Routes>
+        <Route path='/' element={<Portada />} />
+        <Route path='about' element={<About />} />
+        <Route path='projects' element={<Projects />} />
+        <Route path='contact' element={<Contact />} />
+      </Routes>
 
+    <DarkMode dark={dark} setDark={setDark}/>
     <Portada />
     <Footer />
-    <Navbar />
     <ContactForm getContact={getContact}/>
     </div>
+    </Router>
+
+
   );
 };
 
