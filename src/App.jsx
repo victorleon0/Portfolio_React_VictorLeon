@@ -1,10 +1,12 @@
 import './App.scss';
-import LateralMenu from './components/LateralMenu/LateralMenu.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Portada from './components/Portada/Portada.jsx';
 import DarkMode from './components/DarkMode/DarkMode.jsx';
 import ContactForm from './components/ContactForm/ContactForm';
 import { useState } from "react";
+import Navbar from './components/Navbar/Navbar.jsx';
+//import {NavLink} from 'react-router-dom';
+
 //import { CV } from "./CV/curriculum.js";
 //import HeroCard from "./components/Hero/HeroCard";
 //<HeroCard aboutMe={aboutMe}/>
@@ -21,13 +23,14 @@ function App() {
   }
 
   return (
+
     <div className={dark ? 'appDark' : 'appLight'}>
-    
+
     <DarkMode dark={dark} setDark={setDark}/>
-    
-    <LateralMenu />
+
     <Portada />
     <Footer />
+    <Navbar />
     <ContactForm getContact={getContact}/>
     </div>
   );
