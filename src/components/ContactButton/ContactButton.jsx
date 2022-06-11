@@ -8,8 +8,8 @@ const ContactButton = ({dark, setDark}) => {
   
     console.log('Dark mode', dark);
   return (
-    <div>
-        <button type="button">Contacta conmigo</button>
+    <div className="contactButton">
+        <button className="buttonContact" type="button">Contacta conmigo</button>
     </div>   
   )
 }

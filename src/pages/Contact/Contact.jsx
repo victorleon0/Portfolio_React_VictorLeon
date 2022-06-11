@@ -7,7 +7,7 @@ const Contact = () => {
         console.log('En APP newContact', newContact);
       }
   return (
-    <div>
+    <div className="floatingContact">
     <ContactForm getContact={getContact}/>    
     </div>
   )

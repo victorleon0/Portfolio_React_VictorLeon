@@ -1,10 +1,11 @@
 import React from 'react';
+import './Portada.scss'
 
 const Portada = () => {
   return (
-    <div>
-    <h1>Hi! I'm Victor León</h1>
-    <h3>FullStack Developer & UX/UI Designer</h3>
+    <div className="portada">
+    <h1 className="title">Hi! I'm Victor León</h1>
+    <h3 className="description">FullStack Developer & UX/UI Designer</h3>
     
     </div>
   )

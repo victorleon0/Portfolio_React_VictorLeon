@@ -1,15 +1,14 @@
 
 import React from 'react'
-//import PropTypes from 'prop-types'
+import './Footer.scss'
 
-const Footer = props => {
+const Footer = () => {
   return (
-    <div>
-        
+    <div className="footer">
+        <h5 className="copyright">Copyright© - Víctor León 2022</h5>
     </div>
   )
 }
 
-//Footer.propTypes = {}
 
 export default Footer

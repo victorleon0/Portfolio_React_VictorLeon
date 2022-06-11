@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,OAAO;CAWjB;;AAfD,AAKI,QALI,CAKF,MAAM,CAAA;EACJ,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,MAAM;CAErB;;AATL,AAUI,QAVI,CAUF,YAAY,CAAC;EACX,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "Portada.scss"
+    ],
+    "names": [],
+    "file": "Portada.css"
+}

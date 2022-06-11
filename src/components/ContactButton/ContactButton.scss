@@ -1,0 +1,12 @@
+.contactButton {
+    position: fixed;
+    bottom: 70px;
+    right: 50px; 
+    z-index: 100;
+    .buttonContact {
+        border-radius: 20px;
+        height: 40px;
+        width: 150px;
+        background-color: blanchedalmond;
+    }
+}

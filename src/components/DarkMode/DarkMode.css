@@ -1,10 +1,26 @@
 .appDark {
-  background-color: black;
+  background-color: #303030;
   color: White;
+  background-image: url("../../images/darkmode.jpg");
 }
 
 .appLight {
-  background-color: white;
-  color: black;
+  background-color: whitesmoke;
+  color: #303030;
+  background-image: url("../../images/lightmode.png");
+}
+
+.darkModeButton {
+  position: fixed;
+  top: 60px;
+  right: 50px;
+}
+
+.darkModeButton button {
+  border-radius: 30px;
+  -webkit-box-shadow: inset;
+          box-shadow: inset;
+  width: 50px;
+  height: 50px;
 }
 /*# sourceMappingURL=DarkMode.css.map */
