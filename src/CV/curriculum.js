@@ -22,19 +22,19 @@ export const CV = {
     },
     education: [
       {
-        name: "Máster Full Stack Development",
-        date: "2022",
-        where: "Upgrade Hub",
+        name1: "Máster Full Stack Development",
+        date1: "2022",
+        where1: "Upgrade Hub",
       },
       {
-        name: "Máster UX/UI Design",
-        date: "2019",
-        where: "Talent Garden",
+        name2: "Máster UX/UI Design",
+        date2: "2019",
+        where2: "Talent Garden",
       },
       {
-        name: "Técnico en Información y Comercialización Turística",
-        date: "2009",
-        where: "IES Gregorio Fernandez",
+        name3: "Técnico en Información y Comercialización Turística",
+        date3: "2009",
+        where3: "IES Gregorio Fernandez",
       },
     ],
     experience: [

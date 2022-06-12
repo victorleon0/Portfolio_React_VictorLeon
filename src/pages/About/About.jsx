@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import HeroCard from '../../components/Hero/HeroCard'
 
 const About = () => {
   return (
-    <div>About </div>
+    <div className="hero-card">
+    <HeroCard/>
+    </div>
   )
 }
 

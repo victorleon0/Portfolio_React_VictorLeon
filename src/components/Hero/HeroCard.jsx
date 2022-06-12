@@ -4,7 +4,7 @@ import "./hero.scss";
 //import { aboutMe } from "./CV/curriculum";
 
 
-const HeroCard = ({ aboutMe }) => {
+const HeroCard = ({ aboutMe, habilities }) => {
   return (
     <div className="hero">
       <img src={aboutMe.image} alt="" />
@@ -30,10 +30,9 @@ const HeroCard = ({ aboutMe }) => {
 
       <div className="cardBack">
       <h2>
-        {aboutMe.name} {aboutMe.adress}
+        Habilidades
       </h2>
-        <p>🗺️{aboutMe.city} </p>
-        <p>🗓️{aboutMe.birthDate}</p>
+        <p>{habilities} </p>
         <p>
           📧
           <a href={"mailto:" + aboutMe.email}>

@@ -32,7 +32,7 @@ function App() {
     
       <div className={dark ? "appDark" : "appLight"}>
         <Navbar />
-        <HeroCard aboutMe={aboutMe}/>
+        {/*<HeroCard aboutMe={aboutMe} habilities={habilities}/>*/}
         <Portada />
         <DarkMode dark={dark} setDark={setDark} />
         <ContactButton />

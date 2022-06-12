@@ -1,9 +1,9 @@
 .appDark {
   background-color: #303030;
   color: White;
-  background-image: url("../../images/Portadadark.jpg");
+  background-image: url("../../images/Portadadark.png");
   background-repeat: no-repeat;
-  background-size: 700px 700px;
+  background-size: auto;
 }
 
 .appLight {
@@ -11,7 +11,7 @@
   color: #303030;
   background-image: url("../../images/Portadalight.png");
   background-repeat: no-repeat;
-  background-size: 700px 700px;
+  background-size: auto;
 }
 
 .darkModeButton {

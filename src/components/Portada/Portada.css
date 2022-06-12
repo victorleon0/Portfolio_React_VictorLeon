@@ -2,15 +2,18 @@
   position: relative;
   width: 100vw;
   max-height: 100vh;
+  vertical-align: baseline;
 }
 
 .portada .title {
   position: relative;
   text-align: center;
+  vertical-align: center;
 }
 
 .portada .description {
   position: relative;
   text-align: center;
+  vertical-align: center;
 }
 /*# sourceMappingURL=Portada.css.map */
