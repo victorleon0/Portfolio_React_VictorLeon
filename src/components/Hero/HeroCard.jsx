@@ -17,7 +17,7 @@ const HeroCard = ({ aboutMe }) => {
         <p>
           📧
           <a href={"mailto:" + aboutMe.email}>
-          tony@starkindustries.com
+          victor.leon.huerta@gmail.com
           </a>
         </p>
         <p>📱 {aboutMe.phone}</p>
@@ -25,7 +25,28 @@ const HeroCard = ({ aboutMe }) => {
             GitHub
           </a></p>
       </div>
-    </div>
+
+
+
+      <div className="cardBack">
+      <h2>
+        {aboutMe.name} {aboutMe.adress}
+      </h2>
+        <p>🗺️{aboutMe.city} </p>
+        <p>🗓️{aboutMe.birthDate}</p>
+        <p>
+          📧
+          <a href={"mailto:" + aboutMe.email}>
+          victor.leon.huerta@gmail.com
+          </a>
+        </p>
+        <p>📱 {aboutMe.phone}</p>
+        <p>💾<a href={aboutMe.gitHub}>
+            
+          </a></p>
+      </div>
+    </div> 
+    
   );
 };
 

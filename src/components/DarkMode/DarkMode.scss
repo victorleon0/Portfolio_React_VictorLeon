@@ -1,22 +1,27 @@
 .appDark {
     background-color: #303030;
     color: White;
-    background-image: url("../../images/darkmode.jpg");
+    background-image: url("../../images/Portadadark.jpg");
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
 }
 .appLight {
     background-color: whitesmoke;
     color: #303030;
-    background-image: url("../../images/lightmode.png");
+    background-image: url("../../images/Portadalight.png");
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
 }
 .darkModeButton {
     position: fixed;
     top: 60px;
     right: 50px;
     & button {
-        border-radius: 30px;
+        
         box-shadow: inset;
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 30px;
+        background-color: transparent;
     }
     
 }

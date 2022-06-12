@@ -1,18 +1,24 @@
-import './Navbar.scss';
-import React from 'react';
-import {NavLink} from 'react-router-dom';
+import "./Navbar.scss";
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-        <NavLink className="link" to='Contact' activeclassname={"active"}>Contact</NavLink>
-        <NavLink className="link" to='Projects' activeclassname={"active"}>Projects</NavLink>
-        <NavLink className="link" to='About' activeclassname={"active"}>About</NavLink>
-        <NavLink className="link" to='' activeclassname={"active"}>Home</NavLink>
-
-        
+    <div className="navbarbuttons">
+      <Link to="/">
+        <button>Home</button>
+      </Link>
+      <Link to="/About">
+        <button>About</button>
+      </Link>
+      <Link to="/Projects">
+        <button>Projects</button>
+      </Link>
+      <Link to="/Contact">
+        <button>Contact</button>
+      </Link>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

@@ -1,8 +1,7 @@
 .portada {
     position: relative;
     width: 100vw;
-    height: 100vh;
-    color: #303030;
+    max-height: 100vh;
     & .title{
         position: relative;
         text-align: center;

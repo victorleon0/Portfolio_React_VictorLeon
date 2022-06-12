@@ -5,8 +5,8 @@ export const CV = {
       city: "Madrid/Tenerife",
       email: "victor.leon.huerta@gmailcom",
       birthDate: "31/05/1990",
-      phone: "(+12) 767333841 NO PONGAIS EL VUESTRO POR FAVOR",
-      image: "https://i.imgur.com/ZQAkED3.png",
+      phone: "(+34) 635435096",
+      image: "https://media-exp1.licdn.com/dms/image/C5603AQGxpzqw5I_VhA/profile-displayphoto-shrink_400_400/0/1581615912836?e=1660780800&v=beta&t=fdSig0hI1rA2Dju72NWVguAAkwFzRRp-zs192ikyrA4",
       gitHub: "https://github.com/victorleon0",
       aboutMe: [
         {
@@ -16,7 +16,7 @@ export const CV = {
           info: "UX/UI Designer",
         },
         {
-            info: "🙃 Cambiemos el orden, demos la vuelta a los conceptos y veremos que pasa.",
+          info: "🙃 Cambiemos el orden, demos la vuelta a los conceptos y veremos que pasa.",
         },
       ],
     },

@@ -7,16 +7,17 @@ import { useState } from "react";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import ContactButton from "./components/ContactButton/ContactButton";
 
-import { Routes, Route, BrowserRouter as Router, Link } from "react-router-dom";
+import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
-import Contact from "./pages/Contact/Contact.jsx";
+//import Contact from "./pages/Contact/Contact.jsx";
 
-//import { CV } from "./CV/curriculum.js";
-//import HeroCard from "./components/Hero/HeroCard";
-//<HeroCard aboutMe={aboutMe}/>
-//const { aboutMe, education, experience, languages, habilities, volunteer } = CV;
+
+import { CV } from "./CV/curriculum.js";
+import HeroCard from "./components/Hero/HeroCard";
+
+const { aboutMe, education, experience, languages, habilities, volunteer } = CV;
 
 //let contactForm = [];
 
@@ -28,24 +29,23 @@ function App() {
   };
 
   return (
-    <Router>
+    
       <div className={dark ? "appDark" : "appLight"}>
         <Navbar />
+        <HeroCard aboutMe={aboutMe}/>
         <Portada />
         <DarkMode dark={dark} setDark={setDark} />
-
-        {/*<ContactForm getContact={getContact}/>*/}
         <ContactButton />
+       
         <Footer />
 
         <Routes>
-          <Route path="/" element={<Portada />} />
+          <Route path="/"/>
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="contact" element={<ContactForm getContact={getContact}/>} />
         </Routes>
       </div>
-    </Router>
   );
 }
 
