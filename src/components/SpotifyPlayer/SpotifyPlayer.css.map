@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,QAAQ,EAAE,KAAK;EACf,MAAM,EAAE,IAAI;EACZ,IAAI,EAAE,IAAI;CACb",
+    "sources": [
+        "SpotifyPlayer.scss"
+    ],
+    "names": [],
+    "file": "SpotifyPlayer.css"
+}

@@ -1,3 +1,4 @@
+import './SpotifyPlayer.scss'
 import SpotifyPlayer from 'react-spotify-player';  
  const size = {   width: 300,   height: 80, }; 
  const view = 'list'; 
