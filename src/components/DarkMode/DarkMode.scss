@@ -1,16 +1,18 @@
 .appDark {
     background-color: #303030;
     color: White;
-    background-image: url("../../images/Portadadark.png");
+    background-image: url("../../images/Portadadarkexport.png");
     background-repeat: no-repeat;
     background-size: auto;
+    background-position: center center
 }
 .appLight {
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
     color: #303030;
-    background-image: url("../../images/Portadalight.png");
+    background-image: url("../../images/Portadalightexport.png");
     background-repeat: no-repeat;
     background-size: auto;
+    background-position: center center
 }
 .darkModeButton {
     position: fixed;

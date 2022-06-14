@@ -1,4 +1,4 @@
-export const CV = {
+const CV = {
     aboutMe: {
       name: "Víctor",
       adress: "León ",
@@ -70,3 +70,5 @@ export const CV = {
     ],
     
   };
+
+  export default CV;

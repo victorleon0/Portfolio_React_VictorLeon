@@ -6,6 +6,7 @@ import ContactForm from "./components/ContactForm/ContactForm";
 import { useState } from "react";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import ContactButton from "./components/ContactButton/ContactButton";
+import SpotifyWidget from "./components/SpotifyPlayer/SpotifyPlayer";
 
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 
@@ -17,7 +18,7 @@ import Projects from "./pages/Projects/Projects";
 import { CV } from "./CV/curriculum.js";
 import HeroCard from "./components/Hero/HeroCard";
 
-const { aboutMe, education, experience, languages, habilities, volunteer } = CV;
+//const { aboutMe, education, experience, languages, habilities, volunteer } = CV;
 
 //let contactForm = [];
 
@@ -38,6 +39,7 @@ function App() {
         <ContactButton />
        
         <Footer />
+        <SpotifyWidget />
 
         <Routes>
           <Route path="/"/>

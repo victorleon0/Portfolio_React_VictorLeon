@@ -1,8 +1,27 @@
-import React from 'react'
+import { useState } from 'react';
+import ProjectsDropdown from '../../components/ProjectsDropdown/ProjectsDropdown';
+import CV from '../../CV/curriculum';
+//const { experience } = CV;
 
 const Projects = () => {
+  const [state, setState] = useState(CV)
+
   return (
-    <div>Projects </div> )
+    <main>
+      <div className='container'>
+        <div className="title">
+          <h2 className='title-projects'>Recent Projects</h2>
+        </div>
+        <section className='projects' onClick={() => setState(!state)}>
+          {
+            CV.map((experience) => {
+              return <ProjectsDropdown key={experience.name} {...experience} />
+            })
+          }
+        </section>
+      </div>
+    </main>
+  );
 }
 
-export default Projects
+export default Projects;
