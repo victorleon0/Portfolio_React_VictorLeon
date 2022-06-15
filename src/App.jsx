@@ -1,6 +1,5 @@
 import "./App.scss";
 import Footer from "./components/Footer/Footer.jsx";
-import Portada from "./components/Portada/Portada.jsx";
 import DarkMode from "./components/DarkMode/DarkMode.jsx";
 import ContactForm from "./components/ContactForm/ContactForm";
 import { useState } from "react";
@@ -19,6 +18,8 @@ import Sidebar from "./components/Sidebar/Sidebar.jsx";
 
 import LikeView from './components/LikesCounter/LikeView';
 import LikeButton from './components/LikesCounter/LikeButton';
+import TypingText from "./components/TypingText/TypingText";
+
 
 
 
@@ -45,10 +46,10 @@ function App() {
         <Sidebar />
         {/*<Navbar />*/}
         {/*<HeroCard aboutMe={aboutMe} habilities={habilities}/>*/}
-        <Portada />
         <DarkMode dark={dark} setDark={setDark} />
         <ContactButton />
-       
+        <h1 className="title">Hi! I'm Victor León</h1>
+        <TypingText/>
         <Footer />
         <SpotifyWidget />
         <SocialMedia />

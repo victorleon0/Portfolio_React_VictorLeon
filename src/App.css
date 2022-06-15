@@ -31,4 +31,11 @@
   width: 100vw;
   height: 100vh;
 }
+
+.title {
+  font-size: 50px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
 /*# sourceMappingURL=App.css.map */

@@ -22,7 +22,7 @@ const SocialMedia = () => {
   return (
     <div className="socialMenu">
           <div className="socialitem">
-            <TiSocialGithubCircular url={socialMediaLinks.gitHub} />
+            <TiSocialGithubCircular url={'https://github.com/victorleon0'} />
           </div>
 
           <div className="socialitem">
