@@ -16,10 +16,14 @@
   background-position: center center;
 }
 
+.nobg {
+  background-image: none;
+}
+
 .darkModeButton {
   position: fixed;
-  top: 60px;
-  right: 50px;
+  top: 120px;
+  right: 20px;
 }
 
 .darkModeButton button {

@@ -1,0 +1,42 @@
+.socialMenu {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 70px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  bottom: 50px;
+  margin: 0 auto;
+}
+
+.socialitem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 30px;
+  width: 70px;
+  height: 70px;
+  right: 20px;
+}
+
+.socialitem svg {
+  width: 100px;
+  height: 100px;
+}
+/*# sourceMappingURL=SocialMedia.css.map */

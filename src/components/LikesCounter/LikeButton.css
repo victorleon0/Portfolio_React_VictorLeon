@@ -1,0 +1,11 @@
+.LikeButton {
+  position: fixed;
+  bottom: 45px;
+  right: 80px;
+  width: 100px;
+  height: 30px;
+  font-size: 35px;
+  border: 0;
+  background-color: transparent;
+}
+/*# sourceMappingURL=LikeButton.css.map */

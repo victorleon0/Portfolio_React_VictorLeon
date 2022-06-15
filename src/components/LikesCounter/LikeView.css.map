@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,QAAQ,EAAE,KAAK;EACf,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;CAEd;;AACD,AAAA,MAAM,CAAC;EACH,QAAQ,EAAE,KAAK;EACf,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,KAAK;CACzB",
+    "sources": [
+        "LikeView.scss"
+    ],
+    "names": [],
+    "file": "LikeView.css"
+}

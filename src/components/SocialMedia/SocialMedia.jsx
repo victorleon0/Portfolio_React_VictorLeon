@@ -1,4 +1,9 @@
 import React from 'react'
+import { TiSocialFacebookCircular } from 'react-icons/ti/index';
+import { TiSocialGithubCircular } from 'react-icons/ti/index';
+import { TiSocialInstagramCircular } from 'react-icons/ti/index';
+import { TiSocialLinkedinCircular } from 'react-icons/ti/index';
+
 
 //import { SocialIcon } from 'react-social-icons'
 
@@ -16,23 +21,21 @@ const SocialMedia = () => {
 
   return (
     <div className="socialMenu">
-        <ul className="socialList">
-          <li className="socialitem">
-            {/*<SocialIcon url={socialMediaLinks.gitHub} />*/}
-          </li>
+          <div className="socialitem">
+            <TiSocialGithubCircular url={socialMediaLinks.gitHub} />
+          </div>
 
-          <li className="socialitem">
-            {/*<SocialIcon url={socialMediaLinks.linkedin} />*/}
-          </li>
+          <div className="socialitem">
+            <TiSocialLinkedinCircular url={socialMediaLinks.linkedin} />
+          </div>
 
-          <li className="socialitem">
-            {/*<SocialIcon url={socialMediaLinks.instagram} />*/}
-          </li>
+          <div className="socialitem">
+            <TiSocialInstagramCircular url={socialMediaLinks.instagram} />
+          </div>
 
-          <li className="socialitem">
-            {/*<SocialIcon url={socialMediaLinks.facebook} />*/}
-          </li>
-        </ul>
+          <div className="socialitem">
+            <TiSocialFacebookCircular url={socialMediaLinks.facebook} />
+          </div>
       </div>
   )
 }

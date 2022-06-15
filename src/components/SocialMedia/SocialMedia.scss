@@ -1,0 +1,28 @@
+.socialMenu {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 70px;
+    align-content: center;
+    bottom: 50px;
+    margin: 0 auto;
+
+}
+.socialitem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    width:70px;
+    height: 70px;
+    right: 20px;
+    svg {
+        width: 100px;
+        height: 100px;
+    }
+
+
+}
+
