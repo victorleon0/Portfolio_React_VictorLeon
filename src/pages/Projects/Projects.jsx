@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import ProjectsDropdown from '../../components/ProjectsDropdown/ProjectsDropdown';
 import CV from '../../CV/curriculum';
-//const { experience } = CV;
+const { experience } = CV;
 
 const Projects = () => {
   const [state, setState] = useState(CV)
@@ -14,7 +14,7 @@ const Projects = () => {
         </div>
         <section className='projects' onClick={() => setState(!state)}>
           {
-            CV.map((experience) => {
+            experience.map((experience) => {
               return <ProjectsDropdown key={experience.name} {...experience} />
             })
           }

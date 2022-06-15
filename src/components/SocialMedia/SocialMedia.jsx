@@ -7,16 +7,16 @@ import './SocialMedia.scss'
 const SocialMedia = () => {
 
     const socialMediaLinks = {
-        gitHub: 'https://github.com/phanimurari',
-        instagram: 'https://www.instagram.com/im_phani_murari/?hl=en',
-        linkedin: 'https://www.linkedin.com/in/phanimurari/',
-        twitter: 'https://twitter.com/ImPhaniMurari'
+        gitHub: 'https://github.com/victorleon0',
+        instagram: 'https://www.instagram.com/VictorLeon_',
+        linkedin: 'https://www.linkedin.com/in/victorleon0/',
+        facebook: 'https://facebook.com/victorleon0'
       }
 
 
   return (
-    <div class="socialMenu">
-        <ul class="socialList">
+    <div className="socialMenu">
+        <ul className="socialList">
           <li className="socialitem">
             {/*<SocialIcon url={socialMediaLinks.gitHub} />*/}
           </li>
@@ -30,7 +30,7 @@ const SocialMedia = () => {
           </li>
 
           <li className="socialitem">
-            {/*<SocialIcon url={socialMediaLinks.twitter} />*/}
+            {/*<SocialIcon url={socialMediaLinks.facebook} />*/}
           </li>
         </ul>
       </div>

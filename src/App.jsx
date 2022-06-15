@@ -9,7 +9,7 @@ import ContactButton from "./components/ContactButton/ContactButton";
 import SpotifyWidget from "./components/SpotifyPlayer/SpotifyPlayer";
 import SocialMedia from "./components/SocialMedia/SocialMedia";
 
-import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
+import { Routes, Route, BrowserRouter as Router, useLocation } from "react-router-dom";
 
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
@@ -31,6 +31,9 @@ import LikeButton from './components/LikesCounter/LikeButton';
 
 function App() {
   const [dark, setDark] = useState(false);
+  const { pathname } = useLocation();
+  console.log (pathname)
+  const bg = pathname !== "/" ? 'nobg' : '';
 
   const getContact = (newContact) => {
     console.log("En APP newContact", newContact);
@@ -38,7 +41,7 @@ function App() {
 
   return (
     
-      <div className={dark ? "appDark" : "appLight"}>
+      <div className={dark ? `${bg} appDark` : `${bg} appLight` }>
         <Sidebar />
         {/*<Navbar />*/}
         {/*<HeroCard aboutMe={aboutMe} habilities={habilities}/>*/}
@@ -48,7 +51,7 @@ function App() {
        
         <Footer />
         <SpotifyWidget />
-        {/*<SocialMedia />*/}
+        <SocialMedia />
         
         <LikeView/>
         <LikeButton/>
