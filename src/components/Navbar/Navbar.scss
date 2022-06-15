@@ -1,24 +1,23 @@
-.navbar {
-    position: fixed;
+.navbarbuttons {
+    position: relative;
     display: flex;
     flex-direction: row;
-   
-
-    padding: 15px;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
     justify-content: space-around;
-    //transform: rotate(270deg);
-    background-color: #303030;
-    color: whitesmoke;
-    z-index: 100;
-    .link {
+    text-align: center;
+    padding-top: 10px;
+    
+    .navButton {
         display: flex;
-        color: whitesmoke;
         text-decoration: none;
-        flex-direction: column;
-        justify-content: space-between;
+        flex-direction: row;
+        justify-content: center;
+        height: 70px;
+        width: 100px;
+        text-align: center;
+        background-color: transparent;
+        font-size: 20px;
+        vertical-align: auto;
+        border: 0, 1, 2, 1 solid grey;
     }
     
   }

@@ -4,9 +4,10 @@ import Portada from "./components/Portada/Portada.jsx";
 import DarkMode from "./components/DarkMode/DarkMode.jsx";
 import ContactForm from "./components/ContactForm/ContactForm";
 import { useState } from "react";
-import Navbar from "./components/Navbar/Navbar.jsx";
+//import Navbar from "./components/Navbar/Navbar.jsx";
 import ContactButton from "./components/ContactButton/ContactButton";
 import SpotifyWidget from "./components/SpotifyPlayer/SpotifyPlayer";
+import SocialMedia from "./components/SocialMedia/SocialMedia";
 
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 
@@ -14,9 +15,15 @@ import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
 //import Contact from "./pages/Contact/Contact.jsx";
 
+import Sidebar from "./components/Sidebar/Sidebar.jsx";
 
-import { CV } from "./CV/curriculum.js";
-import HeroCard from "./components/Hero/HeroCard";
+import LikeView from './components/LikesCounter/LikeView';
+import LikeButton from './components/LikesCounter/LikeButton';
+
+
+
+//import { CV } from "./CV/curriculum.js";
+//import HeroCard from "./components/Hero/HeroCard";
 
 //const { aboutMe, education, experience, languages, habilities, volunteer } = CV;
 
@@ -32,7 +39,8 @@ function App() {
   return (
     
       <div className={dark ? "appDark" : "appLight"}>
-        <Navbar />
+        <Sidebar />
+        {/*<Navbar />*/}
         {/*<HeroCard aboutMe={aboutMe} habilities={habilities}/>*/}
         <Portada />
         <DarkMode dark={dark} setDark={setDark} />
@@ -40,7 +48,11 @@ function App() {
        
         <Footer />
         <SpotifyWidget />
-
+        {/*<SocialMedia />*/}
+        
+        <LikeView/>
+        <LikeButton/>
+        
         <Routes>
           <Route path="/"/>
           <Route path="about" element={<About />} />

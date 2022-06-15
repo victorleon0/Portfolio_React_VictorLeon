@@ -6,16 +6,19 @@ const Navbar = () => {
   return (
     <div className="navbarbuttons">
       <Link to="/">
-        <button>Home</button>
+        <button className="navButton">Home</button>
       </Link>
       <Link to="/About">
-        <button>About</button>
+        <button className="navButton">About</button>
       </Link>
       <Link to="/Projects">
-        <button>Projects</button>
+        <button className="navButton">Projects</button>
       </Link>
       <Link to="/Contact">
-        <button>Contact</button>
+        <button className="navButton">Contact</button>
+      </Link>
+      <Link to="/Comments">
+        <button className="navButton">Comments</button>
       </Link>
     </div>
   );
