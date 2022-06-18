@@ -12,6 +12,7 @@ import { Routes, Route, BrowserRouter as Router, useLocation } from "react-route
 
 import Aboutme from "./pages/Aboutme/Aboutme";
 import Projects from "./pages/Projects/Projects";
+import CommentPage from "./pages/Comments/CommentsComponents/CommentPage";
 //import Contact from "./pages/Contact/Contact.jsx";
 
 import Sidebar from "./components/Sidebar/Sidebar.jsx";
@@ -19,6 +20,7 @@ import Sidebar from "./components/Sidebar/Sidebar.jsx";
 import LikeView from './components/LikesCounter/LikeView';
 import LikeButton from './components/LikesCounter/LikeButton';
 import TypingText from "./components/TypingText/TypingText";
+
 
 
 
@@ -54,6 +56,7 @@ function App() {
         <SpotifyWidget />
         <SocialMedia />
         
+        
         <LikeView/>
         <LikeButton/>
         
@@ -62,6 +65,7 @@ function App() {
           <Route path="aboutme" element={<Aboutme />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<ContactForm getContact={getContact}/>} />
+          <Route path="comments" element={<CommentPage />}/>
         </Routes>
       </div>
   );

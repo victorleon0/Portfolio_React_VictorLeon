@@ -1,5 +1,29 @@
+.aboutme {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  background-color: whitesmoke;
+  margin: 0 auto;
+}
+
+.h2 {
+  margin: 0 auto;
+}
+
+.containerHero {
+  position: relative;
+  margin: 0 auto;
+}
+
 .hero {
-  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

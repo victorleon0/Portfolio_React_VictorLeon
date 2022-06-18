@@ -14,7 +14,7 @@ export const SidebarData = [
   },
   {
     title: "About me",
-    path: "/Aboutme",
+    path: "/aboutme",
     icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
