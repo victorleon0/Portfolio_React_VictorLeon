@@ -21,7 +21,11 @@
   height: 100vh;
 }
 .title {
-  font-size: 50px;
-  align-items: baseline;
+  position: fixed;
+  top: 280px;
+  left:200px;
+  font-size: 30px;
+  align-items: left;
+
 
 }

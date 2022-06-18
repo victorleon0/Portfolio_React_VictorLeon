@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
+import './TypingText.scss';
 
 const TypingText = () => {
   return (
-    <>
+    <div className="TypingText">
       <ReactTypingEffect
         text={["FullStack Developer", "UX/UI Designer"]} 
       />
@@ -15,21 +16,25 @@ const TypingText = () => {
         cursorRenderer={cursor => <h1>{cursor}</h1>}
         displayTextRenderer={(text, i) => {
           return (
+          <div>
             <h1>
               {text.split('').map((char, i) => {
                 const key = `${i}`;
                 return (
-                  <span
+                  
+                  <span  
                     key={key}
-                    style={i%2 === 0 ? { color: 'orange'} : { color: 'green'}}
+                    style={i%2 === 0 ? { color: 'orange'} : { color: 'grey'}}
                   >{char}</span>
+                  
                 );
               })}
             </h1>
+            </div>
           );
         }}        
       />
-    </>
+    </div>
   );
 };
 export default TypingText

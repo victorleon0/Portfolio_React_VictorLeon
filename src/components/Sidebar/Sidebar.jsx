@@ -6,6 +6,7 @@ import * as AiIcons from "react-icons/ai";
 import { SidebarData } from "./SidebarData";
 import SubMenu from "./SubMenu";
 import { IconContext } from "react-icons/lib";
+import './Sidebar.scss';
   
 const Nav = styled.div`
   padding-top: 10px;
@@ -25,7 +26,7 @@ const NavIcon = styled(Link)`
 `;
   
 const SidebarNav = styled.nav`
-  background: whitesmoke;
+  background: #303030;
   width: 250px;
   height: 100vh;
   display: flex;
@@ -48,7 +49,7 @@ const Sidebar = () => {
   
   return (
     <>
-      <IconContext.Provider value={{ color: "#303030" }}>
+      <IconContext.Provider value={{ color: "orange" }}>
         <Nav>
           <NavIcon to="#">
             <FaIcons.FaBars onClick={showSidebar} />

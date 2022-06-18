@@ -6,15 +6,15 @@ import * as RiIcons from "react-icons/ri";
   
 export const SidebarData = [
   {
-    title: "About Me",
-    path: "/about-me",
+    title: "Home",
+    path: "/",
     icon: <AiIcons.AiFillHome />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
   },
   {
-    title: "Services",
-    path: "/services",
+    title: "About me",
+    path: "/Aboutme",
     icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -23,7 +23,7 @@ export const SidebarData = [
   
   {
     title: "Projects",
-    path: "/events",
+    path: "/projects",
     icon: <FaIcons.FaEnvelopeOpenText />,
   
     iconClosed: <RiIcons.RiArrowDownSFill />,

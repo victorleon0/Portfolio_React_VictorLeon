@@ -33,9 +33,12 @@
 }
 
 .title {
-  font-size: 50px;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  position: fixed;
+  top: 280px;
+  left: 200px;
+  font-size: 30px;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
 }
 /*# sourceMappingURL=App.css.map */

@@ -10,7 +10,7 @@ import SocialMedia from "./components/SocialMedia/SocialMedia";
 
 import { Routes, Route, BrowserRouter as Router, useLocation } from "react-router-dom";
 
-import About from "./pages/About/About";
+import Aboutme from "./pages/Aboutme/Aboutme";
 import Projects from "./pages/Projects/Projects";
 //import Contact from "./pages/Contact/Contact.jsx";
 
@@ -59,7 +59,7 @@ function App() {
         
         <Routes>
           <Route path="/"/>
-          <Route path="about" element={<About />} />
+          <Route path="aboutme" element={<Aboutme />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<ContactForm getContact={getContact}/>} />
         </Routes>

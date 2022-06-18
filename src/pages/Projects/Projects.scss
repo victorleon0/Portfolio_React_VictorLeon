@@ -1,0 +1,19 @@
+.container {
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    background-color: whitesmoke;
+}
+.title-container {
+    margin: 0 auto;
+}
+.projects {
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 600px;
+    height:200px;
+    padding: 30px;
+}

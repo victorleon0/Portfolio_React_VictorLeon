@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import './Sidebar.scss'
   
 const SidebarLink = styled(Link)`
   display: flex;
@@ -14,8 +15,8 @@ const SidebarLink = styled(Link)`
   font-size: 18px;
   
   &:hover {
-    background: #252831;
-    border-left: 4px solid green;
+    background: #303030;
+    border-left: 4px solid yellow;
     cursor: pointer;
   }
 `;
@@ -49,7 +50,7 @@ const SubMenu = ({ item }) => {
     <>
       <SidebarLink to={item.path} 
       onClick={item.subNav && showSubnav}>
-        <div>
+        <div className="menuIcon">
           {item.icon}
           <SidebarLabel>{item.title}</SidebarLabel>
         </div>
