@@ -1,4 +1,8 @@
-import React from 'react'
+import { Alert } from '@chakra-ui/react';
+import React from 'react';
+import Sidebar from '../../components/Sidebar/Sidebar';
+import SocialMedia from '../../components/SocialMedia/SocialMedia';
+import '../../pages/Contact/Contact.scss';
 
 const ContactForm = (props) => {
 
@@ -21,7 +25,9 @@ const ContactForm = (props) => {
     
 
   return (
-    <form onSubmit={submitForm}>
+    <div className="containerForm">
+    <Sidebar/>
+    <form className="form" onSubmit={submitForm}>
     <h3>¿Te puedo ayudar?</h3>
     <p>Déjame tu nombre</p>
     <input type="text" name="nombre" placeholder="Nombre" className="userName"></input>
@@ -31,9 +37,13 @@ const ContactForm = (props) => {
     <input type="text" name="email" placeholder="email" className="userEmail"></input>
     <p>Cuéntame que necesitas</p>
     <input type="text" name="comentarios" className="comentarios"></input>
-    <button type="submit" className="submitButton">Enviar</button>
+    <button className="submitbtn" type="submit">Enviar</button>
     </form>
+    <SocialMedia />
+    </div>
+    
   )
 };
+
 
 export default ContactForm

@@ -1,9 +1,10 @@
 import '../Comments.scss';
-import React, { Component } from 'react';
+//import React, { Component } from 'react';
 import Sidebar from '../../../components/Sidebar/Sidebar';
 import SocialMedia from '../../../components/SocialMedia/SocialMedia';
 import CommentBox from './CommentBox';
-import CommentList from './CommentList';
+//import CommentApp from './CommentApp'
+
 
 const CommentsPage = () => {
   
@@ -18,6 +19,7 @@ const CommentsPage = () => {
         <section className='commentsBox'>
             <CommentBox/>
           {/*<CommentList/>*/}
+          {/*<CommentApp />*/}
         </section>
       </div>
       <SocialMedia />

@@ -42,6 +42,7 @@ const CV = {
         name: "Design Manager",
         date: "01/01/2013 – Nowadays",
         where: "NIW.es",
+        src: "https://media-exp1.licdn.com/dms/image/C5603AQGxpzqw5I_VhA/profile-displayphoto-shrink_400_400/0/1581615912836?e=1660780800&v=beta&t=fdSig0hI1rA2Dju72NWVguAAkwFzRRp-zs192ikyrA4",
         description:
           "It builds the helicarriers used by S.H.I.E.L.D. It produces the Quinjets used by the Avengers.",
       },
@@ -59,14 +60,7 @@ const CV = {
       splevel: "Professional",
     },
     habilities: [
-      "Robotics",
-      "Robot Programming",
-      "Physics",
-      "Weaponery",
-      "Engineer",
-      "Money",
-      "Dating",
-      "Saving the world",
+      ,
     ],
     
   };

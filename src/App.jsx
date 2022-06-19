@@ -1,7 +1,7 @@
 import "./App.scss";
 import Footer from "./components/Footer/Footer.jsx";
 import DarkMode from "./components/DarkMode/DarkMode.jsx";
-import ContactForm from "./components/ContactForm/ContactForm";
+import ContactForm from "./pages/Contact/ContactForm";
 import { useState } from "react";
 import ContactButton from "./components/ContactButton/ContactButton";
 import SpotifyWidget from "./components/SpotifyPlayer/SpotifyPlayer";

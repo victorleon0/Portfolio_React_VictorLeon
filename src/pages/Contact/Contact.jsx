@@ -1,6 +1,6 @@
 import React from 'react';
 import SocialMedia from '../../components/SocialMedia/SocialMedia';
-import './Contact.scss';
+import './ContactForm.scss';
 
 const ContactForm = (props) => {
 
@@ -23,6 +23,7 @@ const ContactForm = (props) => {
     
 
   return (
+    <div className="containerForm">
     <form className="contactForm" onSubmit={submitForm}>
     <h3>¿Te puedo ayudar?</h3>
     <p>Déjame tu nombre</p>
@@ -37,6 +38,7 @@ const ContactForm = (props) => {
     <SocialMedia />
 
     </form>
+    </div>
   )
 };
 
