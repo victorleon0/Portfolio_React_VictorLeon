@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import SocialMedia from '../../components/SocialMedia/SocialMedia';
+import './Contact.scss';
 
 const ContactForm = (props) => {
 
@@ -21,7 +23,7 @@ const ContactForm = (props) => {
     
 
   return (
-    <form onSubmit={submitForm}>
+    <form className="contactForm" onSubmit={submitForm}>
     <h3>¿Te puedo ayudar?</h3>
     <p>Déjame tu nombre</p>
     <input type="text" name="nombre" placeholder="Nombre" className="userName"></input>
@@ -32,6 +34,8 @@ const ContactForm = (props) => {
     <p>Cuéntame que necesitas</p>
     <input type="text" name="comentarios" className="comentarios"></input>
     <button type="submit" className="submitButton">Enviar</button>
+    <SocialMedia />
+
     </form>
   )
 };

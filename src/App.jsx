@@ -3,7 +3,6 @@ import Footer from "./components/Footer/Footer.jsx";
 import DarkMode from "./components/DarkMode/DarkMode.jsx";
 import ContactForm from "./components/ContactForm/ContactForm";
 import { useState } from "react";
-//import Navbar from "./components/Navbar/Navbar.jsx";
 import ContactButton from "./components/ContactButton/ContactButton";
 import SpotifyWidget from "./components/SpotifyPlayer/SpotifyPlayer";
 import SocialMedia from "./components/SocialMedia/SocialMedia";
@@ -46,8 +45,6 @@ function App() {
     
       <div className={dark ? `${bg} appDark` : `${bg} appLight` }>
         <Sidebar />
-        {/*<Navbar />*/}
-        {/*<HeroCard aboutMe={aboutMe} habilities={habilities}/>*/}
         <DarkMode dark={dark} setDark={setDark} />
         <ContactButton />
         <h1 className="title">Hi! I'm Victor León</h1>

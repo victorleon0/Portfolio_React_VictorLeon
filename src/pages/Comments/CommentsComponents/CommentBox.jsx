@@ -1,3 +1,4 @@
+import './CommentBox.scss';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../CommentsActions/CommentsActions';
@@ -30,10 +31,10 @@ class CommentBox extends Component {
   render() {
     return (
       <form className="comment-box" onSubmit={this.handleSubmit}>
-        <h4>Add a comment</h4>
+        <h4>Añade tu comentario</h4>
         <textarea value={this.state.comment} onChange={this.handleChange} />
-        <div>
-          <button type="submit">Submit Comment</button>
+        <div className="submit">
+          <button type="submit">Enviar</button>
         </div>
       </form>
     );

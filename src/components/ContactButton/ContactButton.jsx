@@ -9,7 +9,9 @@ const ContactButton = ({dark, setDark}) => {
     console.log('Dark mode', dark);
   return (
     <div className="contactButton">
+        <a href="contact">
         <button className="buttonContact" type="button">Contacta conmigo</button>
+        </a>
     </div>   
   )
 }

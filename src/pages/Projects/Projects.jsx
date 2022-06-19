@@ -3,6 +3,7 @@ import Sidebar from '../../components/Sidebar/Sidebar';
 import { useState } from 'react';
 import ProjectsDropdown from '../../components/ProjectsDropdown/ProjectsDropdown';
 import CV from '../../CV/curriculum';
+import SocialMedia from '../../components/SocialMedia/SocialMedia';
 const { experience } = CV;
 
 
@@ -24,6 +25,8 @@ const Projects = () => {
             })
           }
         </section>
+        <SocialMedia />
+
       </div>
     </main>
   );

@@ -1,6 +1,10 @@
-.div {
-    background-color: #303030;
-    position: fixed;
-    top: 0;
-    z-index: 2 ;
+.contactForm {
+    position: absolute;
+    display:flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    background-color: whitesmoke;
+    margin: 0 auto;
 }

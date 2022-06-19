@@ -1,5 +1,7 @@
-//import './Projects.scss';
+import '../Comments.scss';
+import React, { Component } from 'react';
 import Sidebar from '../../../components/Sidebar/Sidebar';
+import SocialMedia from '../../../components/SocialMedia/SocialMedia';
 import CommentBox from './CommentBox';
 import CommentList from './CommentList';
 
@@ -11,13 +13,15 @@ const CommentsPage = () => {
       <div className='container'>
       <Sidebar />
         <div className="title-container">
-          <h2 className='title-projects'>Déjame un comentario</h2>
+          <h2 className='title-comments'>Déjame un comentario</h2>
         </div>
-        <section className='comments'>
-            {/*<CommentBox/>*/}
+        <section className='commentsBox'>
+            <CommentBox/>
           {/*<CommentList/>*/}
         </section>
       </div>
+      <SocialMedia />
+
     </main>
   );
 }

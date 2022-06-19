@@ -22,19 +22,27 @@ const SocialMedia = () => {
   return (
     <div className="socialMenu">
           <div className="socialitem">
-            <TiSocialGithubCircular url={'https://github.com/victorleon0'} />
+          <a href="https://github.com/victorleon0">
+            <TiSocialGithubCircular />
+          </a>
           </div>
 
           <div className="socialitem">
+          <a href="https://www.linkedin.com/in/victorleon0/">
             <TiSocialLinkedinCircular url={socialMediaLinks.linkedin} />
+            </a>
           </div>
 
           <div className="socialitem">
+          <a href="https://www.instagram.com/VictorLeon_">
             <TiSocialInstagramCircular url={socialMediaLinks.instagram} />
+          </a>
           </div>
 
           <div className="socialitem">
+          <a href="https://facebook.com/victorleon0">
             <TiSocialFacebookCircular url={socialMediaLinks.facebook} />
+          </a>
           </div>
       </div>
   )

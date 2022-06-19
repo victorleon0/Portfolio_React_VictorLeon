@@ -2,14 +2,21 @@ import "./Aboutme.scss";
 import React from "react";
 import SkillBar from 'react-skillbars';
 import Sidebar from "../../components/Sidebar/Sidebar";
+import SocialMedia from "../../components/SocialMedia/SocialMedia";
 import CV from '../../CV/curriculum';
 const { aboutMe, habilities } = CV;
 
 
 
 const skills = [
-  {type: "Java", level: 85},
-  {type: "Javascript", level: 75},
+  {type: "HTML", level: 95},
+  {type: "CSS", level: 90},
+  {type: "React", level: 80},
+  {type: "Javascript", level: 77},
+  {type: "Angular", level: 30},
+  {type: "NODE JS", level: 80},
+  {type: "SQL", level: 59},
+  {type: "MongoDB", level: 70},
 ];
 
 
@@ -22,7 +29,6 @@ const Aboutme = () => {
   return (
     <main className="aboutme">
     <Sidebar />
-    <h2 className="title-projects">Sobre mí...</h2>
       <div className="containerHero">
       <div className="hero">
             <img src={aboutMe.image} alt="" />
@@ -60,6 +66,7 @@ const Aboutme = () => {
       <div className="containerSkills">
       
       </div>
+      <SocialMedia />
 
     </main>
   );
