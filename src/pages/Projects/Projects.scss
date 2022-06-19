@@ -11,3 +11,30 @@
     margin: 0 auto;
 }
 
+.container_projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 300px;
+    padding: 30px;
+}
+.project {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    width:400px;
+    h3 {
+        font-size:13px;
+    }
+    p {
+        font-size: 9px; 
+    }
+    image {
+        width: 100px;
+        height: 80px;
+
+    }
+
+}
+
+
